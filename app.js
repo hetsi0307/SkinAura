@@ -19,3 +19,6 @@ installBtn.addEventListener("click", () => {
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("service-worker.js");
 }
+function openCamera() {
+  window.location.href = "camera.html";
+}
