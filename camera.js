@@ -11,5 +11,6 @@ navigator.mediaDevices.getUserMedia({
 });
 
 function startAnalysis() {
-  alert("Camera working! Next step: face detection 😊");
+  window.location.href = "analysis.html";
 }
+
